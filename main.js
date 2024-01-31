@@ -9,7 +9,7 @@ car.draw(ctx)
 animate();
 
 function animate(){
-    car.update();
+    car.update(road.borders);
 
     canvas.height = window.innerHeight // This can resize the canvas as well as resets it
 
